@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Judocas do Brasil</title>
+</head>
+
+<body>
+  <div id="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dkSkdZHw0mk?si=fWhVgw37cLWmFYy-&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <header>
+    <h1>JUDOCAS OLÍMPICOS DO BRASIL E SUAS HISTÓRIAS</h1>
+  </header>
+
+  <main>
+    <section>
+      <input type="text" size="50" placeholder="Se Quiser Conhecer Todos, Digite Lista" id="campo-pesquisa">
+      <button onclick="pesquisar()">Pesquisar</button>
+    </section>
+
+    <section class="resultados-pesquisa"
+    id="resultados-pesquisa">
+
+    </section>
+  </main>
+
+  <footer>
+    <p>2024 - Todos os direitos reservados.</p>
+    <p>E-mail: neto_bsn@hotmail.com</p>
+    <div class="imagem-esquerda"></div>
+    <div class="imagem-direita"></div>
+  </footer>
+
+  <script src="dados.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
